@@ -4,6 +4,10 @@ const VideoListItem = ({video,onVideoSelected}) => {
    
 
     const URL = video.snippet.thumbnails.default.url;
+    function add(e){
+        e.preventDefault()
+        console.log("alv");
+    }
     return (
         <li onClick={()=> onVideoSelected(video)} className="list-group-item">
             <div className="video-list media">
