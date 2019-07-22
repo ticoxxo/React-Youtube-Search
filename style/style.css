@@ -19,10 +19,23 @@
     
 }
 
+
 .list-group-item{
     cursor: pointer;
    /* position: relative;
    z-index: -1; */
+}
+
+@media only screen and (min-width: 600px){
+    .list-group{
+        width: 25%;
+        text-align: center;
+        float: right;
+    }
+
+    .video-detail{
+        width: 75%;
+    }
 }
 
 
